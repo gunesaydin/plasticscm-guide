@@ -14,6 +14,7 @@ Run the installer.
 
 In component selection screen, you can unselect **Server components**. For integrations, you can select your IDEs and Office softwares as you wish.
 **It is recommended to leave IntelliJ integrations unchecked, since they seem to affect your IDE's performance significantly still as of 16/04/21**
+
 ![Plastic SCM installation, component selection screen](https://www.plasticscm.com/documentation/administration/chapter3/img/windows-select-components.png)
 
 After you are done installing, the first time you launch Plastic SCM, Plastic's Client Configuration Wizard will run. Login with your email and password. After logging in, you are asked to select an organization. If your administrator successfully added you to your team's organization, you should see your organization in this list. Select it and click Join.
