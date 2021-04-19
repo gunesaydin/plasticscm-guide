@@ -1,4 +1,4 @@
-# Plastic SCM Guide
+# Plastic SCM Guide (WIP)
 This guide will try to help you with setting up Plastic SCM and start using it within our team's guidelines.
 # Getting Started
 
@@ -17,7 +17,7 @@ In component selection screen, you can unselect **Server components**. For integ
 
 ![Plastic SCM installation, component selection screen](https://www.plasticscm.com/documentation/administration/chapter3/img/windows-select-components.png)
 
-**Client Setup**
+## Client Setup
 
 After you are done installing, the first time you launch Plastic SCM, Plastic's Client Configuration Wizard will run. Login with your email and password. After logging in, you are asked to select an organization. If your administrator successfully added you to your team's organization, you should see your organization in this list. Select it and click Join.
 
@@ -27,7 +27,7 @@ After selecting your version of Plastic client, Configuration Wizard will ask yo
 
 ![enter image description here](https://i.imgur.com/WOAGgx7.png)
 
-## Classic Client Setup
+**Classic Client Setup**
 
 **Jira Integration** (Classic Client Only)
 
@@ -51,4 +51,10 @@ Project Key is the one in paranthesis next to your project name in Jira projects
 
 ![enter image description here](https://i.imgur.com/g0Pfp2v.png)
 
-## Gluon Setup
+"Resolved issue states" field should be set to your completed tasks column name. By default it should stay "Done" unless you are using a custom column name for completed tasks in Jira.
+
+"Issue types" field is for the type of issues you want to get from your Jira. By default it should have "Task" and "Bug", you can include other issue types by just typing their names separated by commas.
+
+There should be a "Test connection" button in this panel, you can check if you were able to set Jira integration successfully by testing your connection. If you are getting an error, please check every step of **Jira Integration** section again. If you are still getting an error after checking, contact your team lead about the problem.
+
+**Gluon Setup**
